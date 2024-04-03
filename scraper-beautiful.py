@@ -2,29 +2,6 @@ from bs4 import BeautifulSoup
 from html_content import html_content
 import pandas as pd
 
-# (ChatGP, OR Langchain, OR Crewai, OR Claude, OR Llamaindex, OR Autogen, OR Cohere)
-# Sample HTML content
-# html_content = """
-# <html>
-# <head>
-#     <title>Sample HTML Document</title>
-# </head>
-# <body>
-#     <div id="content">
-#         <h1>This is a heading</h1>
-#         <p>This is a paragraph.</p>
-#         <ul>
-#             <li>Item 1</li>
-#             <li>Item 2</li>
-#             <li>Item 3</li>
-#         </ul>
-#     </div>
-# </body>
-# </html>
-# """
-
-# Parse the HTML content
-
 def scraper():
     job_title = []
     job_links = []
